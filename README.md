@@ -2,8 +2,6 @@
 Great projects and codes for Arduino platform
 
 
-
-
 Used libraries and import for all projects
 #############################################
 Basic libs:
