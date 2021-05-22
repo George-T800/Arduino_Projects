@@ -1,0 +1,7 @@
+cd <paste the path of the python file>
+
+py –m pip install –-upgrade pip
+
+py –m pip install pyautogui
+
+py -m pip install pyserial
