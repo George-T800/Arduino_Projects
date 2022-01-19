@@ -1,21 +1,19 @@
-#include <SPI.h> //ბიბილიოთეკა SPI პროტოკოლის
-#include "RF24.h" //RF მოდულის ბიბლიოთეკა 
+#include <SPI.h> 
+#include "RF24.h" 
 
 
 
 RF24 radio(9,10);
-const uint64_t RF = 0xE8E8F0F0E1LL;  // RF მოდული 
+const uint64_t RF = 0xE8E8F0F0E1LL;  
 int msg[1]; 
 int data; 
 int pos;
 
-//მოძრაობის მიმართულებები 
 int fspeed;             
 int bspeed;            
 int fspeed1;           
 int bspeed1;          
 
-// ძრავის მოდულის პინები 
 const int in1 = 4;     
 const int in2 = 5;    
 const int ena = 3;    
@@ -26,7 +24,6 @@ const int enb = 8;
 
 void setup()
 {
-  // პინების აღწერა 
   pinMode(in1, OUTPUT);      
   pinMode(in2, OUTPUT);      
   pinMode(ena, OUTPUT);      
