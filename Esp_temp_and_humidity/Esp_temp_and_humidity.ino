@@ -3,9 +3,9 @@
 #include <BlynkSimpleEsp8266.h>
 #include "DHT.h"
 DHT dht;
-char auth[] = "db3PnP2STCiIlEHTcUNvNf79DURP2xtF";
-char ssid[] = "CoronaVirus";
-char pass[] = "12345qwert";
+char auth[] = "Gmainauthentification code here";
+char ssid[] = "network ssid ";
+char pass[] = "network password";
 #define DHTPIN 2
 
 BlynkTimer timer;
