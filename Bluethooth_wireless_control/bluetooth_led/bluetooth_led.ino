@@ -35,9 +35,9 @@ void loop() {
 
 if (voice.length() > 0) {
   Serial.println(voice);
-  if (voice == "*ჩართვა")
+  if (voice == "*ON")
   {allon() ; }
-  else if (voice == "*გათიშვა")
+  else if (voice == "*OFF")
   {alloff() ; }
   
 voice="";
